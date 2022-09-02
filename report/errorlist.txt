@@ -1,0 +1,4 @@
+share lock ID 0: deadlock due to lock mismatch 
+뜨는 상황:podman 컨테이너를 삭제하려고 하는데 삭제가 안된다
+해결방법 :podman system renumber 을 입력하고 삭제
+
